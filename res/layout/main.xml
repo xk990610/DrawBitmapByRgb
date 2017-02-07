@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff" >
+    
+    <com.genius.rgb.MyView
+        android:id="@+id/myview1"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+    />
+    
+      <com.genius.rgb.MyView
+        android:id="@+id/myview2"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+    />
+
+</LinearLayout>
